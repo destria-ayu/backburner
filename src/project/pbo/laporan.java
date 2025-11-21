@@ -97,14 +97,14 @@ public class laporan extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(245, 239, 235));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(75, 111, 127));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton1.setText("Dashboard");
         jButton1.setPreferredSize(new java.awt.Dimension(89, 30));
 
         jButton3.setBackground(new java.awt.Color(245, 239, 235));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton3.setForeground(new java.awt.Color(75, 111, 127));
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton3.setText("Pesan");
         jButton3.setPreferredSize(new java.awt.Dimension(89, 30));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -116,14 +116,14 @@ public class laporan extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(245, 239, 235));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(75, 111, 127));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\patient_list_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/patient_list_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton2.setText("Data Pelanggan");
         jButton2.setPreferredSize(new java.awt.Dimension(89, 30));
 
         jButton8.setBackground(new java.awt.Color(245, 239, 235));
         jButton8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton8.setForeground(new java.awt.Color(75, 111, 127));
-        jButton8.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\laundry_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/laundry_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton8.setText("Cucian & Jenis Cucian");
         jButton8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton8.setBorderPainted(false);
@@ -132,21 +132,21 @@ public class laporan extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(245, 239, 235));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton4.setForeground(new java.awt.Color(75, 111, 127));
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\location_on_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/location_on_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton4.setText("Wilayah");
         jButton4.setPreferredSize(new java.awt.Dimension(89, 30));
 
         jButton7.setBackground(new java.awt.Color(245, 239, 235));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton7.setForeground(new java.awt.Color(75, 111, 127));
-        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\assignment_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/assignment_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton7.setText("Laporan Pemasukan");
         jButton7.setPreferredSize(new java.awt.Dimension(89, 30));
 
         jButton5.setBackground(new java.awt.Color(245, 239, 235));
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton5.setForeground(new java.awt.Color(75, 111, 127));
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton5.setText("Logout");
         jButton5.setPreferredSize(new java.awt.Dimension(89, 30));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
