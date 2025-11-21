@@ -87,7 +87,7 @@ public class homepage_admin extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(106, Short.MAX_VALUE))
         );
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -97,7 +97,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(245, 239, 235));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(75, 111, 127));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton1.setText("Dashboard");
         jButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton1.setBorderPainted(false);
@@ -105,7 +104,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(245, 239, 235));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(75, 111, 127));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\patient_list_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton2.setText("Data Pelanggan");
         jButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton2.setBorderPainted(false);
@@ -119,7 +117,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(245, 239, 235));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton3.setForeground(new java.awt.Color(75, 111, 127));
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\location_on_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton3.setText("Wilayah");
         jButton3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton3.setBorderPainted(false);
@@ -128,7 +125,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(245, 239, 235));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton4.setForeground(new java.awt.Color(75, 111, 127));
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton4.setText("Logout");
         jButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton4.setBorderPainted(false);
@@ -137,7 +133,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(245, 239, 235));
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton5.setForeground(new java.awt.Color(75, 111, 127));
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\laundry_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton5.setText("Cucian & Jenis Cucian");
         jButton5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton5.setBorderPainted(false);
@@ -146,7 +141,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton7.setBackground(new java.awt.Color(245, 239, 235));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton7.setForeground(new java.awt.Color(75, 111, 127));
-        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton7.setText("Pesan");
         jButton7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton7.setBorderPainted(false);
@@ -155,7 +149,6 @@ public class homepage_admin extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(245, 239, 235));
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton6.setForeground(new java.awt.Color(75, 111, 127));
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\assignment_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
         jButton6.setText("Laporan Pemasukan");
         jButton6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton6.setBorderPainted(false);
@@ -191,16 +184,16 @@ public class homepage_admin extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE))
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(jLabel2)
-                .addGap(45, 45, 45)
-                .addComponent(jButton1)
-                .addGap(18, 18, 18)
+                .addGap(40, 40, 40)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)

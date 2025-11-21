@@ -44,8 +44,10 @@ public class Offline extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox<>();
         jPanel5 = new javax.swing.JPanel();
         jSpinner1 = new javax.swing.JSpinner();
+        jLabel10 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -145,7 +147,13 @@ public class Offline extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, 700, 70));
+
+        jSpinner1.setModel(new javax.swing.SpinnerDateModel());
+        jSpinner1.setEditor(new javax.swing.JSpinner.DateEditor(jSpinner1, "dd/MM/yyyy"));
         jPanel2.add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 80, 250, 30));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/waving_person-removebg-preview_(1)_(2)-transformed.png"))); // NOI18N
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 140, -1, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 810, 410));
 
@@ -168,6 +176,9 @@ public class Offline extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 520, 120, 40));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/browser-transformed (1).png"))); // NOI18N
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 20, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -248,12 +259,14 @@ public class Offline extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel5;
