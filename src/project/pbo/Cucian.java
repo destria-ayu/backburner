@@ -33,6 +33,7 @@ public class Cucian extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jButton4 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -48,9 +49,11 @@ public class Cucian extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1280, 648));
 
         jPanel2.setBackground(new java.awt.Color(245, 239, 235));
+        jPanel2.setPreferredSize(new java.awt.Dimension(1070, 590));
 
         jLabel1.setBackground(new java.awt.Color(47, 65, 86));
         jLabel1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(47, 65, 86));
         jLabel1.setText("Cucian & Jenis Cucian");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -66,6 +69,9 @@ public class Cucian extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        jButton4.setForeground(new java.awt.Color(47, 65, 86));
+        jButton4.setText("➕");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -74,11 +80,13 @@ public class Cucian extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(301, 301, 301)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton4))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(429, 429, 429)
                         .addComponent(jLabel1)))
-                .addContainerGap(317, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -86,7 +94,9 @@ public class Cucian extends javax.swing.JFrame {
                 .addGap(52, 52, 52)
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton4))
                 .addContainerGap(69, Short.MAX_VALUE))
         );
 
@@ -97,7 +107,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(245, 239, 235));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(75, 111, 127));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton1.setText("Dashboard");
         jButton1.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +119,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(245, 239, 235));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(75, 111, 127));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton2.setText("Pesan");
         jButton2.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +131,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(245, 239, 235));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton3.setForeground(new java.awt.Color(75, 111, 127));
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\patient_list_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/patient_list_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton3.setText("Data Pelanggan");
         jButton3.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +143,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(245, 239, 235));
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton5.setForeground(new java.awt.Color(75, 111, 127));
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\location_on_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/location_on_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton5.setText("Wilayah");
         jButton5.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +155,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(245, 239, 235));
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton6.setForeground(new java.awt.Color(75, 111, 127));
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\assignment_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/assignment_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton6.setText("Laporan");
         jButton6.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +167,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton7.setBackground(new java.awt.Color(245, 239, 235));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton7.setForeground(new java.awt.Color(75, 111, 127));
-        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton7.setText("Logout");
         jButton7.setPreferredSize(new java.awt.Dimension(83, 30));
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -169,7 +179,7 @@ public class Cucian extends javax.swing.JFrame {
         jButton8.setBackground(new java.awt.Color(245, 239, 235));
         jButton8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton8.setForeground(new java.awt.Color(75, 111, 127));
-        jButton8.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\laundry_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/laundry_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton8.setText("Cucian & Jenis Cucian");
         jButton8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton8.setBorderPainted(false);
@@ -189,8 +199,8 @@ public class Cucian extends javax.swing.JFrame {
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 1066, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jLabel2)
@@ -201,26 +211,24 @@ public class Cucian extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap(30, Short.MAX_VALUE)
                 .addComponent(jLabel2)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())))
+                .addGap(24, 24, 24)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(266, 266, 266)
+                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -290,6 +298,7 @@ public class Cucian extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
