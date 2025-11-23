@@ -73,7 +73,7 @@ public class homepage extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(245, 239, 235));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(75, 111, 127));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/logout_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         jButton1.setText("Logout");
         jButton1.setPreferredSize(new java.awt.Dimension(99, 30));
 
@@ -342,16 +342,21 @@ public class homepage extends javax.swing.JFrame {
         bDashboard.setBackground(new java.awt.Color(245, 239, 235));
         bDashboard.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         bDashboard.setForeground(new java.awt.Color(75, 111, 127));
-        bDashboard.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        bDashboard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/dashboard_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         bDashboard.setText("Dashboard");
         bDashboard.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         bDashboard.setBorderPainted(false);
         bDashboard.setPreferredSize(new java.awt.Dimension(97, 30));
+        bDashboard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bDashboardActionPerformed(evt);
+            }
+        });
 
         bProfile.setBackground(new java.awt.Color(245, 239, 235));
         bProfile.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         bProfile.setForeground(new java.awt.Color(75, 111, 127));
-        bProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\account_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        bProfile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/account_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         bProfile.setText("Profile");
         bProfile.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         bProfile.setBorderPainted(false);
@@ -365,7 +370,7 @@ public class homepage extends javax.swing.JFrame {
         bReservasi.setBackground(new java.awt.Color(245, 239, 235));
         bReservasi.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         bReservasi.setForeground(new java.awt.Color(75, 111, 127));
-        bReservasi.setIcon(new javax.swing.ImageIcon("C:\\Users\\destr\\OneDrive\\Documents\\image pbo\\add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png")); // NOI18N
+        bReservasi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project/pbo/images/add_circle_24dp_4B6F7F_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         bReservasi.setText("Reservasi");
         bReservasi.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         bReservasi.setBorderPainted(false);
@@ -428,6 +433,10 @@ public class homepage extends javax.swing.JFrame {
     private void bProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bProfileActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_bProfileActionPerformed
+
+    private void bDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bDashboardActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bDashboardActionPerformed
 
     /**
      * @param args the command line arguments
